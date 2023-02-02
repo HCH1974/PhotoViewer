@@ -40,8 +40,37 @@
   color: #888;
 }
 
-.h1-text{
-  size:0.1em;
- 
+#photo-viewer-title{
+  size:0.05em;
+  padding: 0.5rem;
+  text-align: left;
+  margin: 0;
+}
+
+#image-selector-title{
+  size:0.05em;
+  padding: 0.5rem;
   text-align:left;
+  margin: 0;
+}
+
+#whole-page {
+
+display: grid;
+grid-column: 40%, 60% ;
+
+}
+
+#main-photo {
+
+  grid-column-start: 1;
+  grid-column-end: 1;
+
+}
+
+#photo-grid {
+
+  grid-column-start: 2;
+  grid-column-end: 2;
+  
 }

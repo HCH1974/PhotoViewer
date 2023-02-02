@@ -10,11 +10,15 @@ function App() {
 
 
   return (
-    <div>
-      <p className="h1-text">Hello World</p>
+    <div id="whole-page">
+      <div id="main-photo">
+      <p id="photo-viewer-title">Photo Viewer</p>
       <PhotoViewer  src={selected}/>
-      <p className="h1-text">Image Selector</p>
+      </div>
+      <div id="photo-grid">
+      <p id="image-selector-title">Image Selector</p>
       <ImageSelector selected={selected} setSelected={setSelected} />
+      </div>
     </div>
       
   );
