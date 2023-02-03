@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Component Test that snapshot of PhotoViewer matches previous snapshot 1`] = `
+<div>
+  <img
+    className="displayPhoto"
+    src="https://picsum.photos/id/223/1600/900.jpg"
+  />
+</div>
+`;
